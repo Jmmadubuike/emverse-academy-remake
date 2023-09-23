@@ -226,7 +226,7 @@ input[type="submit"]:hover {
     color: #007BFF;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     header {
         background-image: url('../images/header-remake.jpg');
         background-size: cover;
