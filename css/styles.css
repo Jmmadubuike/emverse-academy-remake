@@ -225,3 +225,130 @@ input[type="submit"]:hover {
     text-align: center;
     color: #007BFF;
 }
+
+@media (max-width: 600px) {
+    header {
+        background-image: url('../images/header-remake.jpg');
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+    }
+    .header-paragraph {
+        font-size: 1rem;
+    }
+    header {
+        background-image: url('../images/header-remake.jpg');
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .learn-more-button {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #007BFF;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    main {
+        max-width: 600px;
+        padding: 1px;
+        height: 1270px;
+    }
+    
+    section {
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    
+    #our-services {
+        text-align: center;
+    }
+    
+    #contact-us {
+        text-align: center;
+        background-color: aliceblue;
+        border: #ccc;
+    }
+    
+    .main {
+        background-color: aliceblue;
+    }
+    
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    
+    .office-address,
+    .office-phone {
+        flex: 1;
+        margin: 10px;
+        padding: 10px;
+        background-color: #007BFF;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .feedback {
+        text-align: center;
+        font-size: 2rem;
+        color: #007BFF;
+    }
+    
+    .contact_us {
+        font-size: 2rem;
+        padding: 1px;
+        border-radius: 50px;
+        color: rgb(0, 0, 0);
+    }
+    
+    .service-category {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 200px;
+    }
+    
+    .service {
+        width: 20%;
+        background-color: #007BFF;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .social-media-links a {
+        display: inline-block;
+        background-color: #007BFF;
+        border-radius: 5px;
+        margin-right: 10px;
+        color: white;
+        text-decoration: none;
+        font-weight: lighter;
+        padding: 5px;
+    }
+    .footer {
+        height: 30px;
+
+    }
+
+}
